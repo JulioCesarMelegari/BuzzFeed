@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&family=Poppins&family=Roboto:wght@100;300;400&display=swap');
+
 .quizz__container{
   width: 80%;
   margin: auto;
@@ -10,8 +12,9 @@
   align-items: center;
   margin-bottom: 10px;
 }
-.quizz_logo >h3{
+.quizz_logo >h2{
   margin-top: 20px;
+  font-family: Roboto;
 }
 .quizz_questions{
   display: flex;
@@ -65,4 +68,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
 }
+.quizz_results > p{
+  font-size: 25px;
+  padding: 10px;
+  color: #18ab29;
+}
+
